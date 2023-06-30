@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 800px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 16px;
+
+}
+
+.form-group > form > .input > input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.form-group > form> button{
+    background-color: #05445E;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.book_shelf > .book_list > .book_item > .action > button {
+    border: 0;
+    padding: 5px;
+    margin: 0 5px 0 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.book_shelf > .book_list > .book_item > .action > .green{
+    background-color: rgb(37, 160, 37);
+    color : aliceblue
+}
+
+.book_shelf > .book_list > .book_item > .action > .blue{
+    background-color: rgb(37, 143, 218);
+    color : aliceblue
+}
+
+.book_shelf > .book_list > .book_item > .action > .red{
+    background-color: rgb(217, 61, 50);
+    color : aliceblue
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Membuat Form Submit</title>
+  </head>
+  <link rel="stylesheet" href="1.css" />
+  <body>
+    <main>
+      <section class="form-group">
+        <h2>Tambahkan Buku Baru</h2>
+        <form id="inputBook">
+          <div class="input">
+            <label for="inputBookTitle">Judul</label>
+            <input id="inputBookTitle" type="text" required />
+          </div>
+          <div class="input">
+            <label for="inputBookAuthor">Penulis</label>
+            <input id="inputBookAuthor" type="text" required />
+          </div>
+          <div class="input">
+            <label for="inputBookYear">Jenis</label>
+            <input id="inputBookJenis" type="text" required />
+          </div>
+          <div class="input">
+            <label for="inputBookYear">Tahun</label>
+            <input id="inputBookYear" type="text" required />
+          </div>
+          <div class="input_inline">
+            <label for="inputBookIsComplete">Selesai dibaca</label>
+            <input id="inputBookIsComplete" type="checkbox" />
+          </div>
+          <button id="bookSubmit" type="submit">
+            Masukkan Buku ke rak <span>Belum selesai dibaca</span>
+          </button>
+        </form>
+      </section>
+      <section class="book_shelf">
+        <h2>Sudah selesai dibaca</h2>
+        <div id="selesai" class="book_list"></div>
+        <br />
+        <h2>Belum selesai dibaca</h2>
+        <h6>*Edit dengan menekan judul buku</h6>
+        <div id="belum_selesai" class="book_list"></div>
+      </section>
+    </main>
+
+    <script src="1.js"></script>
+
+    <script src="2.js"></script>
+  </body>
+</html>
